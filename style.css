@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: Roboto, serif;
+}
+
+.header {
+    background-color: #7030CC;
+}
+
+/* Navbar Section */
+.navbar img {
+    width: 120px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-items {
+    margin-left: 20rem;
+    margin-top: 20px;
+}
+
+.nav-items ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-right: 60px;
+}
+
+.nav-items ul>li:first-child {
+    color: #26BFF0;
+}
+
+.navbar button {
+    padding: 10px 20px;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #26BFF0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.saas {
+    height: 667px;
+    display: flex;
+}
+
+.saas-heading {
+    width: 35rem;
+    margin-left: 136px;
+    color: #ffffff;
+    margin-top: 170px;
+}
+
+.saas-heading h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.saas-heading p {
+    opacity: 0.5;
+    margin-top: 50px;
+}
+
+.saas-img {
+    width: 50rem;
+    text-align: center;
+}
+
+.saas-img img {
+    width: 600px;
+    height: 600px;
+
+}
+
+.main-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.main-container-left {
+    width: 60rem;
+
+}
+
+.main-container-left img {
+    width: 700px;
+    height: 700px;
+}
+
+.main-container-right {
+    width: 526px;
+    margin-left: 50px;
+}
+
+.main-container-right h4 {
+    font-size: 35px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+.main-container-right ul {
+    list-style: none;
+}
+
+.main-container-right img {
+    width: 20px;
+    position: relative;
+    top: 27px;
+    right: 30px;
+}
+
+.main-container-right h5 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.main-container p {
+    margin-bottom: 36px;
+}
+
+/* Feature section */
+.feature {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.feature h3 {
+    font-size: 35px;
+    opacity: 0.9;
+    margin-top: 10px;
+    margin-bottom: 30px
+}
+
+.feature-cards {
+    display: flex;
+    margin-left: 20rem;
+    gap: 2rem;
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 1em;
+    padding: 1.5em;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 27%);
+
+}
+
+.card img {
+    width: 50px;
+    background-color: #d9b7ba5b;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.card h5 {
+    font-size: 20px;
+}
+
+.card p {
+    font-size: small;
+    opacity: 0.7;
+    margin-top: 10px;
+}
